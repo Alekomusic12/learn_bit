@@ -1,31 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dataclinics | Inicio</title>
+    <link rel="shorcut icon" href="favicon.ico" type="image/xicon">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
-    <nav>
+    <nav class="miNavBar">
         <img src="https://via.placeholder.com/230x50" alt="">
-        <ul>
-            <li>Sedes</li>
-            <li>Nosotros</li>
-            <li>Servicios</li>
-            <li>Agendar cita</li>
+        <ul class="estiloOpciones">
+            <li><button>Sedes</button></li>
+            <li><button>Nosotros</button></li>
+            <li><button>Servicios</button></li>
+            <li><button>Servicios2</button></li>
+            <li><button>cita</button></li>
+            
         </ul>
         <a href="login.html">
-            <button type="button">Iniciar sesi&oacute;n</button>
+            <button id="botonSesion"type="button">Iniciar sesi&oacute;n</button>
         </a>
     </nav>
     <!-- Esta seccion es para el slider -->
     <section>
-        <img src="https://via.placeholder.com/1920x501" alt="">
+        <img src="https://via.placeholder.com/1920x501" class="ingSlider" alt="">
     </section>
     <!-- seccion del parrafo de bienvenida -->
     <section>
-        <p>
+        <p class="texto1">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt tempore accusantium quibusdam porro officiis corporis sed ducimus quod aliquid aliquam
         </p>
     </section>
@@ -35,13 +42,32 @@
             <img src="https://via.placeholder.com/501x501" alt="">
         </div>
         <div>
-            <h2>NOSOTROS</h2>
+            <h2>Registro Usuario</h2>
+            <div> 
+            <input type="nombre" placeholder="Nombre">    <input type="Apellido" placeholder="Apellido"> <br>
+            <input type="tipo de documento" placeholder="tipo de documento"> 
+            <select>
+                <option disabled selected> Cargo a desempeñar </option>
+                <option value=""> Cedula</option>
+                <option value="">pasaporte</option>
+                <option value=""> cedula de extrangeria</option>
+                <option value=""> tarjeta de identidad</option>
+                </select>
+            </div><br>
+            <div>
+                <div> 
+                <input type="correo" placeholder="correo">    <input type="contraseña" placeholder="contraseña"> <br>
+                <input type="tipo de documento" placeholder="tipo de documento"> 
+                <select>
+                    <option disabled selected> Cargo a desempeñar </option>
+                    <option value=""> Cedula</option>
+                    <option value="">pasaporte</option>
+                    <option value=""> cedula de extrangeria</option>
+                    <option value=""> tarjeta de identidad</option>
+                    </select>
+                </div><br>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati officia eum perspiciatis pariatur amet necessitatibus, tempore quod sit deleniti ea saepe soluta consequatur accusamus aperiam nihil, sunt cupiditate, minus temporibus dolorum dolorem
-                culpa? Dolor voluptate sapiente, mollitia quae reprehenderit exercitationem cupiditate enim ipsa quis laudantium molestiae reiciendis debitis illum sequi tenetur blanditiis pariatur autem eos totam. Officiis eligendi repellendus debitis
-                sed eaque cumque quam architecto autem, <br> soluta repudiandae aut maxime maiores quia modi esse nostrum quod unde neque temporibus cum ab perspiciatis. Animi unde labore voluptatibus inventore odio repudiandae, porro
-                autem ipsam aliquam deserunt beatae repellat modi illum harum quisquam ex quaerat! Fuga ex praesentium placeat numquam consectetur. Illum maiores, repellat nobis illo, eum eligendi omnis recusandae explicabo accusantium id eaque quibusdam
-                in nihil mollitia! Beatae incidunt unde obcaecati atque eius, rerum explicabo hic saepe fugiat magnam reprehenderit consequatur necessitatibus, veniam inventore in! Dolores corrupti perspiciatis nostrum odio autem eius.
+                tae incidunt unde obcaecati atque eius, rerum explicabo hic saepe fugiat magnam reprehenderit consequatur necessitatibus, veniam inventore in! Dolores corrupti perspiciatis nostrum odio autem eius.
             </p>
         </div>
     </section>

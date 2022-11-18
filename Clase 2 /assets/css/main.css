@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: Arial, Helvetica, Sans-serif;
+
+}
+.miNavBar{
+    background: #000000;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/5a/Animated_Wallpaper_Windows_10_-_Wallpaper_Engine.gif) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+background-attachment: fixed;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 50px;
+}
+
+.estiloOpciones {
+    list-style-type: none;
+}
+
+.estiloOpciones li  {
+    display: inline;}
+
+   
+
+    .estiloOpciones li button, #botonSesion{
+    width: 160px;
+    background: #242121;
+    color: aliceblue;
+    font-weight: bold;
+    padding: 15px;
+    white-space: nowrap;
+    border: none;
+    cursor: help;
+    
+    }
+    #botonSesion{
+        width: 250px;
+        color: blue; 
+        border-radius: 15px;
+        margin: 15px;
+    
+    }
+  
+.texto1 {
+    text-align: center;
+    margin: 5 150px;
+}
+
+.imgslider {
+    width: 100%;
+}
