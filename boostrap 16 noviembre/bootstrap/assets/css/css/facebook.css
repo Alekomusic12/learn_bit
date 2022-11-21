@@ -1,0 +1,24 @@
+.botonColor {
+    background-color: #42b72a;
+}
+.botonC {
+    background-color: #1877f2;;
+}
+.centro {
+   
+text-align: center;
+    
+}
+.idiomasPie, .idiomasPie2, .idiomasPie3, .idiomasPie4 {
+    list-style: none;
+}
+.negrita{
+    text-decoration: none;
+    color: black;
+}
+
+.piePagina3{
+    font-size: small;
+    text-decoration: none;
+    color: red;
+}
