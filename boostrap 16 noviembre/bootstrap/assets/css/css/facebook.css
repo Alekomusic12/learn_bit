@@ -12,6 +12,13 @@ text-align: center;
 .idiomasPie, .idiomasPie2, .idiomasPie3, .idiomasPie4 {
     list-style: none;
 }
+
+.idiomasPie, .idiomasPie2 li{
+    font-size: 9px;
+    margin: 0 10px;
+    
+}
+
 .negrita{
     text-decoration: none;
     color: black;
@@ -21,4 +28,6 @@ text-align: center;
     font-size: small;
     text-decoration: none;
     color: red;
+    gap: 10;
+    margin-left: 280px;
 }
